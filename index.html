@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@500&family=Piedra&family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@500&family=Piedra&family=Roboto+Condensed&family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+    <script defer type="module" src="js/logo_animation.js"></script>
+    <script defer type="module" src="js/ScrollTrigger.js"></script>
+    <script defer type="module" src="js/hamburger.js"></script>
+    <script defer type="module" src="js/lightingbox.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <title>Chen Chao - Portfolio</title>
+</head>
+<body>
+    <header id="sidenav">
+        <div id="top">
+            <img src="images/pic.jpeg" alt="pic">
+            <h2>CHEN CHAO</h2>
+            <h3>Photographer / Motion Graphic Designer / Frontend Designer</h3>
+        </div>
+        
+        <nav id="main-nav">
+            <button id="button">MENU</button>
+            <div id="burger-con">
+                <ul class="menu">
+                    <li><a href="#logo">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="info">
+            <li><a href=""><img src="images/Email.png" alt=""></a></li>
+            <li><a href=""><img src="images/GitHub-Mark.png" alt=""></a></li>
+            <li><a href=""><img src="images/linkedin.png" alt=""></a></li>
+        </div>
+    </header>
+
+    <div id="content">
+        <div id="logo">
+            <canvas id="logo-animation"></canvas>
+        </div>
+
+        <div id="about">
+            <h2>About Me</h2>
+            <p>Greetings! I am a dedicated Frontend Designer and Photographer, seamlessly blending creativity with technical prowess to craft immersive digital experiences.</p>
+
+            <h3>Crafting Captivating Interfaces:</h3>
+                
+            <p>Within the ever-evolving realm of frontend design, I intricately mold code to weave captivating interfaces that transcend the ordinary. Each line of code is a brushstroke, and every element is carefully curated to create a seamless and visually engaging user experience. My passion for design goes beyond functionality, embracing the aesthetic nuances that make digital interactions not just usable, but truly memorable.</p>
+                
+            <h3>Storytelling Through Pixels:</h3>
+                
+            <p>My journey extends beyond pixels and code to the captivating world of photography, where I meticulously capture moments and breathe life into them through intricate post-production. Each image is a canvas, and I am the storyteller, creating narratives that resonate with depth and emotion. From the elegance of graphic design to the immersive depth of 3D artistry, I navigate the intersection of technology and aesthetics, ensuring that every project is a harmonious blend of form and function.</p>
+            
+            <p>But my expertise is not confined to the lines of code or the click of a shutter. It spans the entire spectrum of media arts, allowing me to infuse each project with a unique fusion of creativity and technical excellence. Join me on this visual journey where code transforms into art, and pixels tell compelling stories that linger in the minds of those who experience them.</p>
+            <div id="icons">
+                <div id="left-side">
+                    <img src="images/AE_Icon.png" alt="">
+                    <img src="images/AI_icon.svg.png" alt="">
+                    <img src="images/C4D-Logo.png" alt="">
+                    <img src="images/css.png" alt="">
+                </div>
+                <div id="right-side">
+                    <img src="images/gsap.svg" alt="">
+                    <img src="images/html5.png" alt="">
+                    <img src="images/js_logo.png" alt="">
+                    <img src="images/Ps_icon.svg.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <h2><a href="project.html">Porjects</a></h2>
+            <div id="pic-zoom">
+                <div id="pic1">
+                    <img class="lightbox-trigger" src="images/pf01.jpg" alt="">
+                    <a href="earbuds.html" id="pic1-title">VOCO Earbuds_view more</a>
+                </div>
+                <div id="pic2">
+                    <img class="lightbox-trigger" src="images/pf02.png" alt="">
+                    <a href="elin.html" id="pic2-title">elin_view more</a>
+                </div>
+                <div id="pic3">
+                    <img class="lightbox-trigger" src="images/pf03.webp" alt="">
+                    <a href="po_logo.html" id="pic3-title">Animation_view more</a>
+                </div>
+                <div id="pic4">
+                    <img class="lightbox-trigger" src="images/pf04.jpg" alt="">
+                    <a href="motion_graphic.html" id="pic4-title">Motion Graphic_view more</a>
+                </div>
+                <div id="pic5">
+                    <img class="lightbox-trigger" src="images/pf05.jpg" alt="">
+                    <a href="demo-reel.html" id="pic5-title">Demo_view more</a>
+                </div>
+                <div id="pic6">
+                    <img class="lightbox-trigger" src="images/pf06.jpg" alt="">
+                    <a href=" case.html" id="pic6-title">Study Case_view more</a>
+                </div>
+            </div>
+
+            <div id="lightbox" class="lightbox">
+                <span class="close-lightbox" id="closeLightbox">&times;</span>
+                <img class="lightbox-content no-hover-effect" src="images/pf01.jpg" alt="Large Image 1">
+            </div>
+        </div>
+        
+        <div id="contact">
+            <form id="form_msg">
+                <h2 id="form-title">Leave Me A Message:</h2>
+                <label for="firstname">Firstname:</label>
+                <input type="text" id="firstname" name="firstname" required>
+
+                <label for="lastname">Lastname:</label>
+                <input type="text" id="lastname" name="lastname" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+        
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script> -->
+    <!-- <script src="js/logo-animation.js"></script>
+    <script src="js/main.js"></script> -->
+</body>
+</html>

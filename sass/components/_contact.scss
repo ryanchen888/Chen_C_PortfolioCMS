@@ -1,0 +1,88 @@
+#form-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+form {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 50px;
+    color: #3b3b3b;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 6px 6px 12px #d0d0d0, -6px -6px 12px #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: calc(100% - 16px); /* 考虑到边框，减去边框宽度 */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* 垂直方向可调整大小 */
+}
+
+#submit {
+    background-color: #ededed;
+    color: #3b3b3b;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px #b8b8b8, -3px -3px 6px #fff;
+}
+
+@media screen and (min-width:375px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 768px;
+    }
+    textarea {
+        width: 100%;
+
+    }
+
+    #submit {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #submit {
+        display: block;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+
+}

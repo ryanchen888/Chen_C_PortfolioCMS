@@ -1,0 +1,53 @@
+body {
+    background-color: #ededed;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    font-family:'Noto Sans Georgian', sans-serif;
+    color: #3b3b3b;
+    margin-bottom: 30px;
+}
+
+#pf_logo_title {
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 35px;
+    padding: 20px;
+    color: #3b3b3b;
+    font-family:'Noto Sans Georgian', sans-serif;
+    background-color: #ededed;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
+}
+
+#player-container {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
+}
+
+#back-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#back-button a {
+    font-family:'Noto Sans Georgian', sans-serif;
+    font-size: 35px;
+    background-color: #ededed;
+    color: #3b3b3b;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
+}
+
+#back-button a:hover {
+    color: #fff;
+    background-color: #3b3b3b;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #ededed;
+    // overflow: hidden;
+}
+
+
+#content {
+    margin-left: 0;
+    overflow-y: scroll;
+
+    // overflow-y: auto;
+}
+
+// #sidenav {
+//     overflow-y: auto;
+// }
+

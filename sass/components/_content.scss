@@ -1,0 +1,27 @@
+// #content {
+//     // margin-left: 0; 
+//     // padding: 20px;
+//     // overflow-y: scroll;
+// }
+
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:376px) {
+    #content {
+        margin-left: 30%; 
+        padding: 20px;
+        // overflow-y: scroll;
+    }
+    
+    .box { 
+        background-color: aqua; 
+        height: 2000px;
+    }
+}

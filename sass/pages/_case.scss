@@ -1,0 +1,129 @@
+body h2,h3,p {
+    color: #3b3b3b;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#case-header {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#case-header h2 { font-size: 50px;}
+#case-header h3 {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+
+.project-bg img {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.project-bg h2 {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.project-bg p {
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+
+.design-process {
+    margin-top: 30px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.design-process h2 {font-size: 30px;}
+.design-process p {font-size: 20px;}
+
+.design-process h2,
+.design-process p {
+    flex: 1 1 auto;
+    max-width: 30%;
+}
+
+.design-process img {
+    flex: 0 0 50%;
+    max-width: 35%;
+    order: 1;
+    margin: 20px;
+}
+
+.challenge h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.challenge img {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.challenge p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.results h2 {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.results img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.results p {
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.learned {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learned img {
+  
+    width: 200px; 
+    height: auto;
+    margin: 50px;
+}
+
+.learned h2 {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px; 
+    font-size: 30px;
+}
+
+.learned p {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px; 
+    font-size: 20px;
+}
+
+

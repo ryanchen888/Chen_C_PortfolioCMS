@@ -1,0 +1,627 @@
+#earbuds_body {
+    background-color: #000000;
+  }
+  
+  #earbuds_back-button {
+    font-family:'Noto Sans Georgian', sans-serif;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #242424;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: -3px -3px 6px #3b3b3b, 3px 3px 6px #3b3b3b ;
+  }
+  
+  .animation_1 {
+    margin: 20px auto;
+  }
+  
+  .animation_2 {
+    margin: 50px auto;
+  }
+  
+  #hotSpots-pic {
+    height: 350px;
+    background-color: #999999;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .box_x-ray {
+    background-color: #999999;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  #title {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 100px;
+    text-shadow: 3px 7px 7px white;
+  }
+  
+  #title:hover {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 30px;
+    color: #525252;
+    margin-top: 100px;
+    text-shadow: 3px 7px 7px #5d5d5d;
+  }
+  
+  header {
+    margin-top: 30px;
+  }
+  
+  #earbuds_logo {
+    margin-top: 10px;
+    width: 60px;
+  }
+  
+  #earbuds_nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  #earbuds_nav li a {
+    color: #fff;
+  }
+  
+  #earbuds_nav li a:hover {
+    color: #8f8f8f;
+    transition: 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 390px) {
+    #earbuds_nav li {
+      margin-top: 20px;
+      margin-right: 5px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 10px;
+    }
+  }
+  @media (min-width: 391px) and (max-width: 768px) {
+    #earbuds_nav li {
+      margin-top: 20px;
+      margin-right: 15px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    #earbuds_nav li {
+      margin-top: 20px;
+      margin-right: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 1200px) {
+    #earbuds_nav li {
+      margin-top: 20px;
+      margin-right: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+    }
+  }
+  :root {
+    --plyr-color-main: rgb(138,182,77);
+    --plyr-control-icon-size: 15px;
+    --plyr-control-radius: 20px;
+    --plyr-font-family: "Helvetica Neue", Helvetica, sans-serif;
+    --plyr-controls-spacing: 15px;
+  }
+  
+  #earbuds_video h2 {
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  #earbuds_video h3 {
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  #earbuds_video {
+    margin-top: 200px;
+  }
+  
+  @media screen and (min-width: 390px) and (max-width: 768px) {
+    #earbuds_video h2 {
+      font-size: 60px;
+    }
+    #earbuds_video h3 {
+      font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    #earbuds_video h2 {
+      font-size: 80px;
+    }
+    #earbuds_video h3 {
+      font-size: 40px;
+    }
+  }
+  @media screen and (min-width: 1201px) {
+    #earbuds_video h2 {
+      font-size: 100px;
+    }
+    #earbuds_video h3 {
+      font-size: 50px;
+    }
+  }
+  #text-box {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  #text-box h2 {
+    font-size: 30px;
+    margin-bottom: 80px;
+  }
+  
+  #text-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #text-box p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #HP-title {
+    color: #fff;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  
+  model-viewer {
+    width: auto;
+    max-width: 1200px;
+    height: 300px;
+    background-color: #272727;
+    margin: 0 auto;
+  }
+  
+  .Hotspot {
+    background: url(../images/hotspot.svg) center no-repeat;
+    border: 0px;
+    width: 45px;
+    height: 38px;
+    display: none;
+    transition: all 1s ease-in-out;
+  }
+  
+  .Hotspot:not([data-visible]) {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .HotspotAnnotation {
+    visibility: hidden;
+    background: #414141;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-family: Futura, Helvetica Neue, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    left: calc(100% + 1em);
+    max-width: 300px;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    width: max-content;
+    text-align: left;
+  }
+  
+  .HotspotAnnotation p {
+    color: #ebebeb;
+    line-height: 22px;
+    font-weight: 300;
+  }
+  
+  .HotspotAnnotation h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  model-viewer::part(default-progress-bar) {
+    height: 60px;
+    background-color: #272727;
+  }
+  
+  /* AR Rules */
+  #ar-button {
+    background-image: url(../images/ar_icon.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 12px 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    bottom: 16px;
+    padding: 0px 16px 0px 40px;
+    font-family: Roboto Regular, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    color: #4285f4;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 1px solid #DADCE0;
+  }
+  
+  #ar-button:active {
+    background-color: #E8EAED;
+  }
+  
+  #ar-button:focus {
+    outline: none;
+  }
+  
+  #ar-button:focus-visible {
+    outline: 1px solid #4285f4;
+  }
+  
+  @keyframes circle {
+    from {
+      transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
+    }
+    to {
+      transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg);
+    }
+  }
+  @keyframes elongate {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(-100px);
+    }
+  }
+  model-viewer > #ar-prompt {
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    animation: elongate 2s infinite ease-in-out alternate;
+    display: none;
+  }
+  
+  model-viewer[ar-status=session-started] > #ar-prompt {
+    display: block;
+  }
+  
+  model-viewer > #ar-prompt > img {
+    animation: circle 4s linear infinite;
+  }
+  
+  #HP-box {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  @media screen and (max-width: 390px) {
+    #HP-box {
+      grid-template-columns: 1fr;
+    }
+    .HotspotAnnotation {
+      visibility: hidden;
+      background: #414141;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+      color: rgba(255, 255, 255, 0.8);
+      display: block;
+      font-family: Futura, Helvetica Neue, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      left: calc(100% + 1em);
+      max-width: 50px;
+      overflow-wrap: break-word;
+      padding: 0.5em 1em;
+      position: absolute;
+      top: 50%;
+      width: max-content;
+      text-align: left;
+    }
+    .HotspotAnnotation p {
+      display: none;
+      color: #ebebeb;
+      line-height: 22px;
+      font-weight: 300;
+    }
+    .HotspotAnnotation h2 {
+      font-size: 8px;
+      margin-bottom: 5px;
+    }
+    model-viewer::part(default-progress-bar) {
+      height: 60px;
+      background-color: #272727;
+    }
+    model-viewer {
+      width: auto;
+      max-width: 1200px;
+      height: 350px;
+      background-color: #272727;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (min-width: 391px) and (max-width: 768px) {
+    #HP-box {
+      grid-template-columns: 1fr;
+    }
+    model-viewer {
+      width: auto;
+      max-width: 1200px;
+      height: 350px;
+      background-color: #272727;
+      margin: 0 auto;
+    }
+    .HotspotAnnotation {
+      visibility: hidden;
+      background: #414141;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+      color: rgba(255, 255, 255, 0.8);
+      display: block;
+      font-family: Futura, Helvetica Neue, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      left: calc(100% + 1em);
+      max-width: 200px;
+      overflow-wrap: break-word;
+      padding: 0.5em 1em;
+      position: absolute;
+      top: 50%;
+      width: max-content;
+      text-align: left;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    #text-box {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: #6c6c6c;
+    }
+    #text-box h3:hover {
+      color: #ffffff;
+    }
+    #text-box p:hover {
+      color: #ffffff;
+    }
+    #HP-box {
+      grid-template-columns: 1fr;
+    }
+    #hotSpots-pic {
+      grid-column: 1/span 9;
+      height: 600px;
+    }
+    #text-box {
+      width: 500px;
+    }
+    model-viewer {
+      width: auto;
+      max-width: 1200px;
+      height: 600px;
+      background-color: #272727;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    #text-box {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: #6c6c6c;
+    }
+    #text-box h3:hover {
+      color: #ffffff;
+    }
+    #text-box p:hover {
+      color: #ffffff;
+    }
+    #hotSpots-pic {
+      height: 600px;
+    }
+    #text-box {
+      grid-column: 5/-1;
+    }
+    model-viewer {
+      width: auto;
+      max-width: 1200px;
+      height: 600px;
+      background-color: #272727;
+      margin: 0 auto;
+    }
+  }
+  .box_x-ray {
+    background-color: #000000;
+  }
+  
+  #outerShell {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #mobile-table-view {
+      display: none;
+    }
+    #outerShell {
+      display: block;
+      max-width: 1200px;
+      border: solid 1px #666;
+      border-radius: 10px;
+    }
+    #imageCon {
+      position: relative;
+      max-width: 1200px;
+      height: 50vh;
+    }
+    .slideImage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 100%;
+      border-radius: 10px;
+    }
+    .image-right {
+      background: url(../images/earbuds_x-ray.jpg) no-repeat;
+      background-size: auto;
+    }
+    .image-left {
+      background: url(../images/earbuds.jpg) no-repeat;
+      background-size: auto;
+      width: 50%;
+    }
+    .image-drag {
+      background-color: #666;
+      left: 50%;
+      width: 4px;
+      cursor: pointer;
+    }
+  }
+  .earbuds__pic {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    padding: 50px;
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  .earbuds_pic img:hover {
+    opacity: 70%;
+  }
+  
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+  }
+  
+  .lightbox-content {
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .close-lightbox {
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    font-size: 100px;
+    color: #454545;
+    cursor: pointer;
+  }
+  
+  .close-lightbox:hover {
+    color: #999999;
+  }
+  
+  @media screen and (min-width: 786px) and (max-width: 1200px) {
+    .earbuds_pic {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      justify-items: center;
+    }
+    .close-lightbox {
+      position: absolute;
+      top: 15%;
+      right: 20px;
+      font-size: 100px;
+      color: #454545;
+      cursor: pointer;
+    }
+  }
+  @media screen and (min-width: 1201px) {
+    .earbuds_pic {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      justify-items: center;
+    }
+    .close-lightbox {
+      position: absolute;
+      top: 10%;
+      right: 20px;
+      font-size: 100px;
+      color: #454545;
+      cursor: pointer;
+    }
+  }
+  #explode-view {
+    margin: 10px;
+    max-width: 100%;
+    background: url("../images/bg_firstview.jpg");
+    background-size: 100%;
+    width: 70vw;
+  }
+  
+  #first-view {
+    max-width: 100%;
+    margin-top: 30px;
+    background: url("../images/bg_firstview.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #footer {
+    margin-top: 100px;
+  }
+  
+  #news-info h3 {
+    color: #6b6b6b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+  }
+  
+  #news-info ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  #address {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  #address h3 {
+    color: #6b6b6b;
+    font-size: 20px;
+  }
+  
+  #address p {
+    color: #6b6b6b;
+    font-size: 10px;
+  }
+  
+  #socialmedia ul li {
+    width: 50px;
+  }/*# sourceMappingURL=main.css.map */

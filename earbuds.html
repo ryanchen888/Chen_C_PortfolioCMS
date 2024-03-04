@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>VOCO Earbuds</title>
+</head>
+<body id="earbuds_body">
+    <header id="earbuds_main-nav">
+        <div class="box_nav">
+            <div class="grid-con">
+                <a id="earbuds_back-button" href="index.html">BACK</a>
+                <img id="earbuds_logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-2 l-col-start-2 l-col-end-3" src="images/logo.svg" alt="">
+                <ul id="earbuds_nav" class="col-start-2 col-end-5 m-col-start-4 m-col-end-10 l-col-start-6 l-col-end-12">
+                    <li><a href="#earbuds.html">HOME</a></li>
+                    <li><a href="#video">VIDEO</a></li>
+                    <li><a href="#HP-box">HOT-SPOTS</a></li>
+                    <li><a href="#x-ray">X-RAY</a></li>
+                    <li><a href="#pics">PICS</a></li>
+                </ul>    
+            </div>
+        </div>
+    </header>
+
+    <div class="animation_1">
+        <div class="grid-con">
+            <div class="col-span-full">
+                <canvas id="first-view"></canvas> 
+            </div>
+        </div>
+    </div>
+
+    <div id="earbuds_video">
+        <div class="grid-con">
+            <h2 class="col-span-full">&nbsp;&nbsp;&nbsp;&nbsp;VOCO -</h2>
+            <h3 class="col-span-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Gateway to Tranquil Soundscapes.</h3>
+            <section class="col-span-full" id="player-container">
+                <video controls poster="audio/bg.jpg">
+                    <source src="audios/Chen_Chao_video.mp4" type="video/mp4">
+                </video>
+            </section>
+        </div>
+    </div>
+
+    <div class="box_hot-spots">
+        <div id="HP-box" class="grid-con">
+            <h2 id="HP-title" class="col-span-full">Discover innovation that speaks to your senses – where style meets functionality.</h2>
+            <div id="hotSpots-pic" class="col-span m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-11"><model-viewer id="model" src="images/earbuds_1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="images/poster.webp" shadow-intensity="1">
+
+                <button class="Hotspot" slot="hotspot-1" data-position="-0.1553309522259991m 196.75075960981792m 355.6584497632459m" data-normal="0.21885651281984841m 0.9730279781878786m 0.07292722715107716m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation" id="hotspot-1"></div>
+                </button>
+          
+                <button class="Hotspot" slot="hotspot-2" data-position="39.178813729806954m 70.6227131746494m 339.9483671265645m" data-normal="0.7379483136422101m -0.3541326360979166m -0.5744757283323281m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation" id="hotspot-2"></div>
+                </button>
+                
+                <button class="Hotspot" slot="hotspot-3" data-position="29.404639978382665m 27.178838156281856m 292.8381266495884m" data-normal="0.9769237824227752m -0.0661242855688698m -0.20309481085144687m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation" id="hotspot-3"></div>
+                </button>
+                
+                <button class="Hotspot" slot="hotspot-4" data-position="-0.17319318985299503m 130.1636845325197m 207.60880965993317m" data-normal="4.278030866133517e-17m -0.9370006123689325m -0.34932771493290576m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation" id="hotspot-4"></div>
+                </button>
+          
+                <button slot="ar-button" id="ar-button"></button>
+          
+                <div id="ar-prompt">
+                    <img src="images/ar_hand_prompt.png">
+                </div>
+          
+              </model-viewer></div>
+            <div id="text-box" class="col-span m-col-start-7 m-col-end-10 l-col-start-9 l-col-end-13">
+                <h2>Explore the cutting-edge features of our latest headphones:</h2>
+
+                    <h3>1 - Control at Your Fingertips:</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Effortlessly manage playback, calls, and more with our intuitive control button.</p>
+                
+                    <h3>2 - Custom Comfort:</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tailor your fit with our intelligent rotating axis for maximum comfort.</p>
+                
+                    <h3>3 - Immersive Sound:</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enjoy noise-canceling earplugs made of eco-friendly silicone for a superior audio experience.</p>
+                
+                    <h3>4- Swift Charging:</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our patented technology ensures 80% charge in under 10 minutes. Stay powered, stay connected.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box_x-ray" id="x-ray">
+        <div class="grid-con">
+            <section class="col-span-full">
+                <div id="mobile-table-view">
+                    <img src="images/earbuds_x-ray.jpg" alt="">
+                    <img src="images/earbuds.jpg" alt="">
+                </div>
+                <h2 class="hidden">X-Ray revealer</h2>
+                <div id="outerShell">
+                    <div id="imageCon">
+                        <div class="slideImage image-right"></div>
+                        <div class="slideImage image-left"></div>
+                        <div class="slideImage image-drag"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="animation_2" class="grid-con">
+        <div class="col-span-full">
+            <canvas id="explode-view"></canvas> 
+        </div>
+    </div>
+    <div id="title" class="grid-con">
+        <h2 class="col-span-full">WE ARE COMMITTED TO EXCELLENCE</h2>
+    </div>
+    <div class="earbuds_pic" id="earbuds_pics">
+        <div id="earbuds_pic1">
+            <img class="lightbox-trigger" src="images/1.jpg" alt="">
+        </div>
+        <div id="earbuds_pic2">
+            <img class="lightbox-trigger" src="images/2.jpg" alt="">
+        </div>
+        <div id="earbuds_pic3">
+            <img class="lightbox-trigger" src="images/3.jpg" alt="">
+        </div>
+        <div id="earbuds_pic4">
+            <img class="lightbox-trigger" src="images/4.jpg" alt="">
+        </div>
+        <div id="earbuds_pic5">
+            <img class="lightbox-trigger" src="images/5.jpg" alt="">
+        </div>
+        <div id="earbuds_pic6">
+            <img class="lightbox-trigger" src="images/6.jpg" alt="">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox" id="closeLightbox">&times;</span>
+        <img class="lightbox-content no-hover-effect" src="images/1.jpg" alt="Large Image 1">
+    </div>
+
+    <footer id="footer">
+        <div class="grid-con">
+            <div id="socialmedia">
+                <ul>
+                    <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/linkedin.svg" alt="linkedin"></a></li>
+                    <li><a href="#"><img src="images/youtube.svg" alt="youtube"></a></li>
+                </ul>
+            </div>
+
+            <div id="news-info" class="col-start-2 col-end-4 m-col-start-9 m-col-end-12 l-col-start-10 l-col-end-12">
+                <ul>
+                    <h3>News&Info</h3>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">About VOCO</a></li>
+                    <li><a href="#">Product Support</a></li>
+                    <li><a href="#">Product Manuals</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+
+            <div id="address" class="col-span-full">
+                <h3>www.vocoearbuds.ca</h3>
+                <p>1583 Dandas Street, London, Ontario, Canada</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- ScrollTo plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="js/earbuds-animation_1.js"></script>
+    <script src="js/earbuds-animation_2_scrollTrigger.js"></script>
+    <script src="js/earbuds-animation_2.js"></script>
+    <script src="js/earbuds-main.js"></script>
+    
+</body>
+</html>

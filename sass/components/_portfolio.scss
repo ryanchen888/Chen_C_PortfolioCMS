@@ -1,0 +1,133 @@
+#portfolio h2 {
+  font-size: 25px;
+  padding-top: 6px;
+  font-family:'Noto Sans Georgian', sans-serif;
+  background-color: #e9e9e9;
+  width: 7.5em;
+  height: 2em;
+  border-radius: 30em;
+  color: #3b3b3b;
+  text-align: center;
+  box-shadow: 4px 4px 10px #c0c0c0, -4px -4px 10px #ffffff;
+  -webkit-text-stroke: 1px #9b9b9b;
+  // text-stroke: 1px #6d6d6d;
+}
+
+#pic-zoom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+}
+
+#pic-zoom img {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#pic-zoom div {
+  width: calc(100%);
+  margin-bottom: 30px;
+}
+
+#pic-zoom img:hover {
+  opacity: 70%;
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 6px #c0c0c0, -3px -3px 6px #ffffff;
+  text-align: center;
+}
+
+#pic-zoom a  {
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #3b3b3b;
+}
+
+#pic-zoom a:hover {
+  padding: 5px;
+  text-shadow: #3b3b3b 1px 1px 1px;
+  color: #939393;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 375px) and (max-width:767px) {
+  #pic-zoom div {
+    width: calc(50% - 20px);
+    margin-right: 15px;
+
+    #pic1-title {
+      font-size: 13px;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #3b3b3b;
+    }
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+  #pic-zoom {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  #pic-zoom div {
+    width: calc(33.33% - 20px); 
+    margin-right: 20px;
+  }
+
+  #pic1-title {
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #3b3b3b;
+  }
+  
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+  }
+  
+  
+  
+  .lightbox-content {
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .close-lightbox {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    font-size: 100px;
+    color: #454545;
+    cursor: pointer;
+  }
+  
+  .close-lightbox:hover {
+    color: #999999;
+  }

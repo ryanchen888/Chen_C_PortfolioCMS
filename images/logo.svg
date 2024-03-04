@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 315.7 401.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_6-2);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-3 {
+        fill: url(#_未命名的渐变_6);
+      }
+
+      .cls-5 {
+        fill: #272727;
+        font-family: GillSans-UltraBold, 'Gill Sans Ultra Bold';
+        font-size: 60px;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        fill: #191919;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_6" data-name="未命名的渐变 6" x1="165.91" y1="81.65" x2="58.19" y2="189.37" gradientUnits="userSpaceOnUse">
+      <stop offset=".18" stop-color="#7f7f7f"/>
+      <stop offset=".32" stop-color="#7a7a7a"/>
+      <stop offset=".46" stop-color="#6d6d6d"/>
+      <stop offset=".62" stop-color="#575757"/>
+      <stop offset=".78" stop-color="#383838"/>
+      <stop offset=".94" stop-color="#111"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_6-2" data-name="未命名的渐变 6" x1="219.91" y1="140.65" x2="112.19" y2="248.37" gradientTransform="translate(372.33 381.65) rotate(-180)" xlink:href="#_未命名的渐变_6"/>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <rect class="cls-2" x="34.14" y="34.14" width="247.42" height="247.42" rx="41.3" ry="41.3" transform="translate(-65.38 157.85) rotate(-45)"/>
+    <path class="cls-3" d="m179.8,77.55l-70.9,70.9,17.65,17.65c1.24,1.24,1.24,3.26,0,4.5l-45,45c-1.24,1.24-3.26,1.24-4.5,0l-22.51-22.52c-10.19-10.19-12.78-25.09-7.77-37.67.89-3.57,2.73-6.96,5.53-9.76l97.8-97.8c4.1-4.1,9.48-6.15,14.85-6.15s10.75,2.05,14.85,6.15c8.2,8.2,8.2,21.5,0,29.7Z"/>
+    <ellipse class="cls-6" cx="99.92" cy="188.97" rx="35.36" ry="11.85" transform="translate(-104.35 126) rotate(-45)"/>
+    <ellipse class="cls-6" cx="171.8" cy="55.35" rx="9.55" ry="20.86" transform="translate(11.18 137.7) rotate(-45)"/>
+    <path class="cls-1" d="m138.52,245.1l70.9-70.9-17.65-17.65c-1.24-1.24-1.24-3.26,0-4.5l45-45c1.24-1.24,3.26-1.24,4.5,0l22.51,22.52c10.19,10.19,12.78,25.09,7.77,37.67-.89,3.57-2.73,6.96-5.53,9.76l-97.8,97.8c-4.1,4.1-9.48,6.15-14.85,6.15s-10.75-2.05-14.85-6.15c-8.2-8.2-8.2-21.5,0-29.7Z"/>
+    <ellipse class="cls-6" cx="218.41" cy="133.69" rx="35.36" ry="11.85" transform="translate(-30.56 193.59) rotate(-45)"/>
+    <ellipse class="cls-6" cx="146.52" cy="267.3" rx="9.55" ry="20.86" transform="translate(-146.1 181.9) rotate(-45)"/>
+    <text class="cls-5" transform="translate(60.85 377.31)"><tspan class="cls-4" x="0" y="0">V</tspan><tspan x="47.67" y="0">OCO</tspan></text>
+  </g>
+</svg>
